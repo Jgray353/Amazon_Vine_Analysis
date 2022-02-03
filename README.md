@@ -1,7 +1,7 @@
 # Amazon_Vine_Analysis
 
 ## Purpose
-The purpose of this analysis was to gain better familiarity with ETL using big data. Using Amazon AWS RDS, pgAdmin, and PySpark, we were able to extract, transform and load thousands of Amazon reviews for watches to determine if there's a positivity bias for reviews that are in the Vine program vs. reviews from non-Vine members. Members of Vine are chosen by Amazon based on the helpfulness, thoroughness, and impact of their reviews. And for those reasons, they are given products by companies to use and review. And we chose reviews on watches for our ETL and positivty bias analysis. 
+The purpose of this analysis was to gain better familiarity with ETL using big data. Using Amazon AWS RDS, pgAdmin, and PySpark, we were able to extract, transform and load thousands of Amazon reviews for watches to determine if there's a positivity bias for reviews that are in the Vine program vs. reviews from non-Vine members. Members of Vine are chosen by Amazon based on the helpfulness, thoroughness, and impact of their reviews. And for those reasons, they are given products by companies to use and review. And we chose reviews on watches for our ETL and positivity bias analysis. 
 
 ## Results
 As we see in the screen shot below, there's 8343 total reviews from non-Vine reviewers, and 47 that are from Vine reviewers. 4318 of the 8343 non-Vine reviews gave a 5 star review, which is just over 51 percent of the total. Meanwhile, 15 of of the 47 Vine member reviews were 5 star, or around 32 percent. 
